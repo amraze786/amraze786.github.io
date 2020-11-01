@@ -1,291 +1,171 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Amraze Pirani's Profile</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-<head>
-    <!-- Required meta tags always come first -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
 
-    <!-- build:css css/main.css -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-<!-- endbuild -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" /> 
-    
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Hi, I'm Amraze<br />
+						</h1>
+						<h2>Entry-level Full-Stack Developer</h2>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
 
-    <title>NuCamp: A Better Way To Camp</title>
-</head>
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Home</a>
+					</header>
 
-<body>
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">About Me</a></li>
+							<li><a href="portfolio.html">My Work</a></li>
+							<li><a href="elements.html">Goals</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://twitter.com/home" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.facebook.com/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
 
-    <header class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                    <img src="css\css\img\logo.png" class="img-fluid" />
-                 </div>
-                <div class="col">
-            <h1>NuCamp</h1>
-            <h2>a better way to camp</h2>
-        </div>
-        <div class="col-md-4 col-xl-2 mt-4">
-                <a class="btn btn-info btn-lg" role="button" id="reserveButton">Reserve Campsite</a>
-             <div>
-         </div>
-    </div>
-    </header>
-    <div class="modal fade" id="reserveModal" role="dialog">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header bg-info text-white">
-                    <h3 class="modal-title">Reserve a Campsite</h3>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-            <div class="modal-body">
-                <div class="container-fluid">
-                <form>
-                    <div class="form-group row">
-                        <label for="numCampers" class="col-sm-6 col-form-label">Number of Campers</label>
-                        <!--Select Dropdown-->
-                    <div class="col">
-                        <select name="numCampers" id=numCampers class="form-control">
-                            <option selected>Select...</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                        </select>
-                    </div>
-                </div>
-                <!-- Date -->
-                <div class="form-group row">
-                    <label for="date" class="col-sm-6 col-form-label">Date</label>
-                    <div class="col">
-                        <input type="date" class="form-control" id="date" name="date" placeholder="Date" />
-                    </div>
-                </div>
-                <!-- Search Button -->
-                <div class="form-group row">
-                    <label class="col-sm-6 col-form-label">Campsite Type</label>
-                    <div class="col btn-group btn-group-toggle" data-toggle="button">
-                        <label class="btn btn-success active">
-                            <input type="radio" name="siteType" id="siteTent" value="tent" autocomplete="off" checked/>Tent
+				<!-- Main -->
+					<div id="main">
 
-                        </label>
-                        <label class="btn btn-success active">
-                            <input type="radio" name="siteType" id="siteRV" value="RV" autocomplete="off" checked/>RV
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<span class="date">April 9th, 2020</span>
+									<h2><a href="#">Where it all began</a></h2>
+									<p>After working for several years as a Manager in retail, it was time for a exciting change in career! Thats when I aimed to be a successful developer!</p>
+								</header>
+								<a href="#" class="image main"><img src="images\careerchange.png" alt="" /></a>
+							</article>
 
-                        </label>
-                        
-                    </div>
-                </div>
-            
-              <div class="form-group row">
-                  <div class="col">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                    <button type="submit" class="btn btn-primary">Search</button>
-                  </div>
-        </div>
-        </form>
-    </div>
-</div>
-</div>
-</div>
-</div>
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2><a href="#">My Inspiration<br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images\inspiration.jpg" alt="" /></a>
+									<p>It hit me one evening when I realized I wasn't feeling fulfilled with being in retail for a really long time. I learned of multiple bootcamps offering courses on programming and thats when I looked into what coding actually is. When I learned about the structure behind how some of the most major and popular websites are built, curiousty got the best of me and thats when I dived into know more and to apply these techniques for sites and apps I would love to build.</p>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">My Education<br /></a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images\youtube logo.jpg" alt="" /><img src="images\logo.png" height="100" weight="100" alt"" /></a>
+									<p>I joined NuCamp which is a bootcamp that focuses on learning how to code. Through Nucamp I learned various programming languages and also applied the knowledge into weekly workshop projects. Apart from NuCamp, I also used YouTube and FreeCodeCamp as resources to better understand the languages I was learning and to also learn more other langauges that can assist me better in the future.</p>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Traveling<br /></a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images\roadtrip.jpg" alt="" /></a>
+									<p><em>"Investment in travel is in investment for yourself"</em></p>
+									<p>I truly feel that one benefits a lot from traveing as it gives the individual an experience to learn, to express, and most of all to feel. It is often overlooked about the fact that traveling is actually considered very healthy for overall health. I love taking roadtrips as it gives more time to fully feel the surroundings and a chance to just let go.
+									</p>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Nature<br /></a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images\Nature-Brain.jpg" alt="" /></a>
+									<p>Did you know nature has the most powerful ability to heal the deepest of deepest wounds of the soul? It is proven that spending a good amount of time everyday with nature highly reduces negative emotions such as anger, grief, depression, anxiety. Not only does nature contribute to an overall health of the mind and soul, it also contributes to physical health with numerous benefits such as reduced blood pressure, muscle tension, and stress hormones. Whenever I get the time, I visit the waterfalls to enjoy the peace and serenity which in return leaves a profound effect on my well-being. </p>
+									<ul class="actions special">
+									</ul>
+								</article>
+							</section>
 
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="css\css\img\logo.png" height="30" width="30" /></a>  
-        <button class="navbar-toggler ml-auto" type="button"
-        data-toggle="collapse" data-target="#nucampNavbar">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="nucampNavbar">
-        <ul class="navbar-nav">
-            <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i> About</a></li>
-            <li class="nav item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Sites</a></li>
-            <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
-                </ul>
-                <span class="navbar-text ml-auto">
-                    <a role="button" id="loginButton">
-                        <i class="fa fa-sign-in"></i>Login
-                    </a>
-                </span>
-            </div>
-         </div>
-    </nav>
-    <div id="loginModal" class="modal fade" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title">Login</h3>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <form>
-                            <div class="form-row">
-                                <div class="form-group col-12">
-                                    <label class="sr-only" for="loginEmail">Email address</label>
-                                    <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
-                                </div>
-                                <div class="form-group col-12">
-                                    <label class="sr-only" for="loginPassword">Password</label>
-                                    <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox">
-                                        <label class="form-check-label"> Remember me</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                                <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+						<!-- Footer -->
+							<footer>
+								<div class="pagination">
+									<!--<a href="#" class="previous">Prev</a>-->
+									<a href="#" class="page active">1</a>
+									<a href="elements.html" class="page">2</a>
+									<a href="generic.html" class="page">3</a>
+									<span class="extra">&hellip;</span>
+									<a href="#" class="next">Next</a>
+								</div>
+							</footer>
 
-    <div class="container">
-        <div class="row row-content">
-            <div class="col-md-8 mx-auto">
-                <div id="homeCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#homeCarousel" data-slide-to="1"></li>
-                        <li data-target="#homeCarousel" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="css\css\img\breadcrumb-trail.jpg" alt="Breadcrumb Trail Campground" />
-                            <div class="carousel-caption">
-                                <h3>Breadcrumb Trail Campground</h3>
-                                <p class="d-none d-sm-block">Let Nucamp be your guide to this off-the-beaten-path, hike-in-only campground.</p>
-                            </div>
-                         </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="css\css\img\react-lake.jpg" alt="React Lake Campground" />
-                                <div class="carousel-caption">
-                                    <h3>React Lake Campground</h3>
-                                    <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="css\css\img\chrome-river.jpg" alt="Chrome River Campground" />
-                                <div class="carousel-caption">
-                                    <h3>Chrome River Background</h3>
-                                    <p class="d-none d-sm-block">Spend a few sunny days and starry nights beneath a canopy of old-growth
-                                        firs at this enchanting spot by the Chrome river.</p>
-                            </div>
-                        </div>
-                    </div>
-                            <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                                <button class="btn btn-danger btn-sm" id="carouselButton">
-                                    <i class="fa fa-pause"></i>
-                                </button>
-                            </div>
-                        </div>
-                 </div>
+					</div>
 
-    <div class="row row-content align-items-center">
-        <div class="col-sm-4 order-sm-last col-md-3">
-            <h2 class= "text-sm-right">Discover and Review</h2>
-        </div>
-        <div class="col">
-        <div class="media">
-            <img class="d-flex mr-3 img-thumbnail" src="css\css\img\breadcrumb-trail-thumb.jpg" alt="Breadcrumb Trail" />
-            <div class="media-body align-self-center">
-                <h3>Our Campsites</h3>
-                <p class="d-none d-sm-block">Explore our growing database of curated campsites and leave your own reviews!</p>
-            </div>
-        </div>
-    </div>
-</div>
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">Jay786111@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://twitter.com/home" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://www.facebook.com/" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="https://www.instagram.com/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://github.com/" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
 
-        <div class="row row-content align-items-center">
-                <div class="col-sm-4 col-md-3">
-                    <h2>Featured Campsites</h2>
-                    </div>
-                    <div class="col">
-                        <div class="media">   
-                    <div class="media-body align-self-center">
-                    <h3>React Lake Campground</h3>
-                    <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>    
-            </div>
-            <img class="d-flex ml-3 img-thumbnail" src="css\css\img\react-lake-thumb.jpg" alt="React Lake Campground" />
-    </div>
-</div>
-        </div>
-    
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 order-sm-last col-md-3">
-                <h2 class="text-sm-right">Our Community Partners</h2>
-            </div>
-                <div class="col">
-                    <div class="media">
-                        <img class="d-flex mr-3 img-thumbnail" src="css\css\img\bootstrap-thumb.png" alt="Bootstrap Outfitters" />
-                        <div class="media-body align-self-center">
-                         <h3>Bootstrap Outfitters</h3>
-                        <p class="d-none d-sm-block">Bootstrap Outfitters supplies you gear you need at prices you can't beat.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Amraze Pirani 2020</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
 
-<footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 col-sm-2 offset-1">
-                    <h5>Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Sites</a></li>
-                        <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-        <div class="col-6 col-sm-5 text-center">
-            <h5>Social</h5>
-                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-        </div>
-        <div class="col-sm-4 text-center">
-            <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-206-555-1234</a><br />
-            <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i> campsites@nucamp.co</a>
-        </div>
-            </div>
-        </div>
-    </footer>
-<!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-<!-- build:js js/main.js -->
-<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="js/scripts.js"></script>
-<!-- endbuild -->
+			</div>
 
-<script src="js/scripts.js"> </script>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-</body>
-
+	</body>
 </html>
